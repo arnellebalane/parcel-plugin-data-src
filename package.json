@@ -11,5 +11,10 @@
     "parcel-plugin"
   ],
   "author": "Arnelle Balane <arnellebalane@gmail.com> (https://arnellebalane.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-arnellebalane": "3.3.0",
+    "eslint-plugin-unicorn": "6.0.1"
+  }
 }
