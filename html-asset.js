@@ -126,6 +126,13 @@ class ExtendedHTMLAsset extends HTMLAsset {
             return node;
         });
     }
+
+    getAttrDepHandler(attr) {
+        if (attr === 'srcset' || attr === 'data-srcset') {
+            return this.collectSrcSetDependencies;
+        }
+        return this.processSingleDependency;
+    }
 }
 
 module.exports = ExtendedHTMLAsset;
