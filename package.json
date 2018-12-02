@@ -4,7 +4,6 @@
   "description": "ParcelJS plugin to bundle resources defined in data-* attributes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint '*.js'"
   },
   "keywords": [
