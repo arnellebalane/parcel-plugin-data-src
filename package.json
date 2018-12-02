@@ -16,6 +16,8 @@
     "eslint": "5.9.0",
     "eslint-config-arnellebalane": "3.3.0",
     "eslint-plugin-unicorn": "6.0.1",
+    "husky": "1.2.0",
+    "lint-staged": "8.1.0",
     "parcel-bundler": "1.10.3"
   },
   "peerDependencies": {
