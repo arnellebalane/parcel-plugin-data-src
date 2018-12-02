@@ -16,7 +16,11 @@
   "devDependencies": {
     "eslint": "5.9.0",
     "eslint-config-arnellebalane": "3.3.0",
-    "eslint-plugin-unicorn": "6.0.1"
+    "eslint-plugin-unicorn": "6.0.1",
+    "parcel-bundler": "1.10.3"
+  },
+  "peerDependencies": {
+    "parcel-bundler": "1.10.3"
   },
   "eslintConfig": {
     "extends": [
