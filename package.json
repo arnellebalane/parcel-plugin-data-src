@@ -1,0 +1,15 @@
+{
+  "name": "parcel-plugin-data-src",
+  "version": "0.0.0",
+  "description": "ParcelJS plugin to bundle resources defined in data-* attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parcel",
+    "parcel-plugin"
+  ],
+  "author": "Arnelle Balane <arnellebalane@gmail.com> (https://arnellebalane.com/)",
+  "license": "MIT"
+}
