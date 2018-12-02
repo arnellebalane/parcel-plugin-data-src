@@ -4,7 +4,8 @@
   "description": "ParcelJS plugin to bundle resources defined in data-* attributes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint '*.js'"
   },
   "keywords": [
     "parcel",
@@ -16,5 +17,20 @@
     "eslint": "5.9.0",
     "eslint-config-arnellebalane": "3.3.0",
     "eslint-plugin-unicorn": "6.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "arnellebalane",
+      "arnellebalane/rules/plugins/unicorn"
+    ],
+    "plugins": [
+      "unicorn"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2015
+    },
+    "env": {
+      "node": true
+    }
   }
 }
