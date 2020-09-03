@@ -14,6 +14,7 @@ const ATTRS = {
         'track',
         'iframe',
         'embed'
+        
     ],
     'href': ['link', 'a', 'use'],
     'srcset': ['img', 'source'],
@@ -22,7 +23,8 @@ const ATTRS = {
     'poster': ['video'],
     'xlink:href': ['use', 'image'],
     'content': ['meta'],
-    'data': ['object']
+    'data': ['object'],
+    'data-background-image': ['img']
 };
 
 const META = {
